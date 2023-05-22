@@ -10,5 +10,6 @@ numpy
 packaging
 pyparsing
 six
+tensorflow
 Werkzeug
 
