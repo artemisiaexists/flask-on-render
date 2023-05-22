@@ -5,6 +5,7 @@ Gunicorn
 itsdangerous
 Jinja2
 MarkupSafe
+numpy
 packaging
 pyparsing
 six
