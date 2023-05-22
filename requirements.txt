@@ -1,2 +1,12 @@
+appdirs
+click
 Flask
 Gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+packaging
+pyparsing
+six
+Werkzeug
+
