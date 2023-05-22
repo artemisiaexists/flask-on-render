@@ -4,6 +4,7 @@ Flask
 Gunicorn
 itsdangerous
 Jinja2
+keras
 MarkupSafe
 numpy
 packaging
