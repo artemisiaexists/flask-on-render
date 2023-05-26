@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" sizes="64x64">
+        <title>Snazzy Machine Translator</title>
+    </head>
+    <body>
+        <button onClick = "changeLang(this)" id="changelangbutton">currently translating: english to german</button>
+        <form method='POST' id="translateform">
+            <label for="translate" id="translatetext">Write sentence to translate:</label>
+            <input type="text" name="translationinput" id="translateformtext"/>
+            <input type="text" name="language" class = "stayhidden" value= "e"/>
+            <input type="submit" value="Submit" id="submitbutton"/>
+        </form>
+        <p id="title">an English and German machine translator made with python and deployed with Flask!</p>
+        <script>
+            function changeLang(element) {
+                if(element.innerText.includes("english to german")) {
+                    element.innerText = "currently translating: german to english"
+                    element.parentNode.children[1].children[2].value = "g"
+                } else {
+                    element.innerText = "currently translating: english to german"
+                    element.parentNode.children[1].children[2].value = "e"
+                }
+            }
+        </script>
+    </body>
+</html>
