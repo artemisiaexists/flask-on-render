@@ -1,0 +1,65 @@
+/* I never said I was good at css... */
+
+.stayhidden {
+    display:none;
+}
+body {
+    font-family: monospace;
+    background-color: #2B2D31;
+    color:white;
+}
+#changelangbutton {
+    font-family: monospace;
+    background-color: #1E1F22;
+    color:white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    padding: 20px 20px 20px 20px;
+    align-content: center;
+}
+#changelangbutton:hover, #submitbutton:hover { 
+    background-color: #313338;
+}
+#changelangbutton:active, #submitbutton:active { 
+    background-color: #2B2D31;
+}
+#submitbutton {
+    font-family: monospace;
+    margin: 0;
+    background-color: #1E1F22;
+    color:white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    width: 70px;
+    height: 23px;
+    align-content: center;
+}
+#translateformtext {
+    width: 350px
+}
+#translateform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#results {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width:max-content;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+}
+#title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: xx-large;
+}
